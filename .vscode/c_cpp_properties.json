@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/firmware/src/packs/ATSAMD51J18A_DFP/",
+                "${workspaceFolder}/firmware/src/packs/CMSIS/CMSIS/Core/Include/",
+                "${workspaceFolder}/firmware/src/config/cgi_proto/",
+                "C:/Program Files/Microchip/xc32/v2.40/pic32c/include/"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/Program Files/Microchip/xc32/v2.40/pic32c/include*"
+                ],
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cStandard": "c89",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "pas-pmsm1",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

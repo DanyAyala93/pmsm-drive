@@ -1,0 +1,29 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Directories #
+###############
+firmware/Microchip_Proto_samd51.X/build/
+firmware/Microchip_Proto_samd51.X/dist/
+firmware/Microchip_Proto_samd51.X/Microchip_Proto_samd51.zip
+firmware/Microchip_Proto_samd51.X/nbproject/private/
+
+# Other #
+#########
+firmware/Microchip_Proto_samd51.X/nbproject/Makefile-*
+firmware/Microchip_Proto_samd51.X/nbproject/Package-*
+firmware/Microchip_Proto_samd51.X/.generated_files/*
+
+build/*

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./build.sh /home/dev/bloaty/bloaty \
+    build/target/firmware/src/PmsmDriveApplication.elf

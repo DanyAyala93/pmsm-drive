@@ -1,0 +1,69 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Target",
+            "command": "./build.sh target",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Clean Target",
+            "command": "./build.sh target clean",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        // UNIT TESTS BUILD TASKS
+        {
+            "type": "shell",
+            "label": "Build Unit Tests",
+            "command": "./build.sh tests",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Clean Unit Tests",
+            "command": "./build.sh tests clean",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        // DIAGNOSTIC TASKS
+        {
+            "type": "shell",
+            "label": "Get Size",
+            "command": "./proj/tools/get-size",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Get Size Details",
+            "command": "./proj/tools/get-size-details",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}

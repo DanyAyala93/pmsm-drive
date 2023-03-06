@@ -1,0 +1,3 @@
+[submodule "proj/cgi_cicd"]
+	path = proj/cgi_cicd
+	url = https://bitbucket.chamberlain.com/scm/fw_tl/cgi_cicd.git

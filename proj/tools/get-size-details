@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./build.sh /home/dev/bloaty/bloaty \
+    build/target/firmware/src/PmsmDriveApplication.elf \
+    -n 0 \
+    -d compileunits \
+    --domain=vm
