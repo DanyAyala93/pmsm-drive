@@ -1,3 +1,6 @@
 [submodule "proj/cgi_cicd"]
 	path = proj/cgi_cicd
 	url = https://bitbucket.chamberlain.com/scm/fw_tl/cgi_cicd.git
+[submodule "testsubmodule"]
+	path = testsubmodule
+	url = https://github.com/DanyAyala93/testsubmodule.git
